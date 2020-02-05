@@ -1,0 +1,85 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "Hei mä teen jotain turhaa!",
+      "author": "NN"
+    },
+    {
+      "title": "postman testing, POST metodi",
+      "author": "Posti Mies Pate ja Koiro",
+      "id": 3
+    }
+  ],
+
+    "products": [{
+      "id": 0,
+      "name": "niilolippis",
+      "description": "wouu 5,5/5",
+      "price": 10,
+      "image":"https://image.spreadshirtmedia.net/image-server/v1/products/T905A461PA1890PT26X16Y0D157791271FS8947/views/1,width=500,height=500,appearanceId=461,backgroundColor=ffffff,crop=list,modelId=1735,version=1534228056/lohi-onki-kala-snapback-cap.jpg"
+    },
+    {
+      "id": 1,
+      "name": "niilopaita",
+      "description": "nääs",
+      "price": 15,
+      "image":"https://image.spreadshirtmedia.net/image-server/v1/products/T664A231PA3625PT17X22Y17D153477089S90/views/1,width=500,height=500,appearanceId=231,backgroundColor=ffffff/niilo22-vauvan-t-paita.jpg"
+    },
+    { 
+      "id": 2,
+      "name": "kuppakassi",
+      "description": "kuppakassivideoo",
+      "price": 7,
+      "image":"https://wwwmolokicom.s3.amazonaws.com/preview/475497443536474c795ad5ca47ffb27c.png"
+    }
+  ],
+
+  "customers": [{
+    "id": 1,
+    "firstname": "Niilo",
+    "lastname": "Keisari",
+    "address": "koirakatu 2, 33100 Tre",
+    "email": "lenboolonkeisari@gmail.com",
+    "phonenumber": "04006668884"
+  },
+  {
+    "id": 2,
+    "firstname": "Niilo",
+    "lastname": "Keisari",
+    "address": "koirakatu 2, 33100 Tre",
+    "email": "lenboolonkeisari@gmail.com",
+    "phonenumber": "04006668884"
+  },
+  { 
+    "id": 3,
+    "firstname": "Niilo",
+    "lastname": "Keisari",
+    "address": "koirakatu 2, 33100 Tre",
+    "email": "lenboolonkeisari@gmail.com",
+    "phonenumber": "04006668884"
+  }
+],
+
+"orders": [{
+    "id": 1,
+    "date": "2019-12-01",
+    "ordereditem": [{
+      "id": 1,
+      "productid": 1,
+      "quantity": 2 
+      }],
+    "customerid": 1
+  },
+
+  {
+    "id": 2,
+    "date": "2019-12-01",
+    "ordereditem": [{
+      "id": 2,
+      "productid": 3,
+      "quantity": 12
+      }],
+    "customerid": 2
+  }
+]}

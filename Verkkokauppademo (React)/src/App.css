@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 50px;
+}
+
+.konsoli {
+  background-color: rgb(65, 65, 65);
+  width: 800px;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+body{ 
+  background-image: url(https://i.gifer.com/J3u2.gif);
+}
+
+.koira {
+  background-color: white;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+table, th, td, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+  padding: 3px;
+}
+
+table {
+  width: 700px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+/* li {
+  list-style-type: none;
+  display: inline;
+  margin: auto;
+  padding: 20;
+  background-color: #f1f1f1;
+} */
+
+h4 {
+  font-size: 20px;
+}
+
+nav {
+  margin-top: -50px;
+  margin-bottom: 60px;
+  text-align: center;
+  padding-left: none;
+  margin-left: -40px;
+}
+
+li {
+  list-style-type: none;
+  background-color: #2d3138;
+  height: 20px;
+  vertical-align: middle;
+  line-height: 40px;  
+}
+
+li a {
+  display: inline;
+  color: black;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(110, 110, 110);
+}
